@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 echo Creating virtual environment
-python -m venv json_splitter
+python3 -m venv json_splitter
 source json_splitter/bin/activate
 
 echo Installing prerequisites
