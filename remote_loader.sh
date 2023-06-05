@@ -15,7 +15,7 @@ echo Installing Texas Solver
 wget -q https://github.com/bupticybee/TexasSolver/releases/download/v0.1.0/TexasSolver-v0.1-Linux.zip
 unzip TexasSolver-v0.1-Linux.zip
 
-mv input.txt /TexasSolver-Linux
+sudo mv input.txt /TexasSolver-Linux
 
 cd TexasSolver-Linux
 #curl -o GTO_DB_splitter.py https://raw.githubusercontent.com/DarkSun198/json_splitter/main/GTO_DB_splitter.py
