@@ -1,6 +1,7 @@
 #!/system/bin/sh
 
 sudo apt install python3.10-venv
+sudo apt install unzip
 
 echo Creating virtual environment
 python3 -m venv json_splitter
