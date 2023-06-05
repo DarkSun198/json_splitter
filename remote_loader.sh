@@ -16,6 +16,7 @@ wget -q https://github.com/bupticybee/TexasSolver/releases/download/v0.1.0/Texas
 unzip TexasSolver-v0.1-Linux.zip
 
 sudo mv input.txt TexasSolver-Linux
+sudo mv GTO_DB_splitter.py TexasSolver-Linux
 
 cd TexasSolver-Linux
 #curl -o GTO_DB_splitter.py https://raw.githubusercontent.com/DarkSun198/json_splitter/main/GTO_DB_splitter.py
