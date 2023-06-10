@@ -64,22 +64,15 @@ set_bet_sizes oop,turn,bet,100
 set_bet_sizes oop,turn,raise,100
 set_bet_sizes ip,turn,bet,100
 set_bet_sizes ip,turn,raise,100
-set_bet_sizes oop,river,bet,100
-set_bet_sizes oop,river,donk,100
-set_bet_sizes oop,river,raise,100
-set_bet_sizes oop,river,allin
-set_bet_sizes ip,river,bet,100
-set_bet_sizes ip,river,raise,100
-set_bet_sizes ip,river,allin
 set_allin_threshold 0.8
 build_tree
 set_thread_num 32
 set_accuracy 0.5
-set_max_iteration 101
+set_max_iteration 201
 set_print_interval 10
 set_use_isomorphism 1
 start_solve
-set_dump_rounds 3
+set_dump_rounds 2
 dump_result output/$x.json" > "input/${x}.txt"
 
 	    # Make JSON and store in DB folder
