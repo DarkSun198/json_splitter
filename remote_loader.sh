@@ -30,9 +30,9 @@ mkdir output
 #!/bin/bash
 
 # Read in the list of possible values for X from input.txt
-#IFS=$'\n' read -d '' -r -a x_values < input.txt
+IFS=$'\n' read -d '' -r -a x_values < input.txt
 
-x_values=("Th,3s,Td") # "2c,8d,Jh" "5d,6d,7d")
+#x_values=("Th,3s,Td") # "2c,8d,Jh" "5d,6d,7d")
 
 # Loop through each value of X and create a separate file for each one
 for x in "${x_values[@]}"; do
