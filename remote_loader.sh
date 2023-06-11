@@ -91,8 +91,8 @@ dump_result output/$x.json" > "input/${x}.txt"
 
 
     fi
-    mv -r "output/$x" 
     # Remove JSON
+    rm "output/$x.json"
 
 
 done
