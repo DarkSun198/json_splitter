@@ -1,5 +1,3 @@
-Ad,Ah,As
-Kd,Ah,As
 Kd,Ah,Ad
 Kd,Ad,As
 Kd,Ad,Ah
