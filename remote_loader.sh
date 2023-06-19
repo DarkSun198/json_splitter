@@ -84,6 +84,7 @@ dump_result output/$x.json" > "input/${x}.txt"
 
     	# Run DB Splitter on JSON
         python3 GTO_DB_splitter.py "output/$x.json" output
+	zip -r $x output/$x
 
         echo "$x has been split"
 	
