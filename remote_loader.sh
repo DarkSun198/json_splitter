@@ -85,8 +85,7 @@ dump_result output/$x.json" > "input/${x}.txt"
     	# Run DB Splitter on JSON
         python3 GTO_DB_splitter.py "output/$x.json" output
 
- 	cd output
- 	tar -cvf "$x.tar" $x
+ 	tar -cvf "output/$x.tar" "output/$x"
 
         echo "$x has been split"
 	
@@ -95,8 +94,8 @@ dump_result output/$x.json" > "input/${x}.txt"
 
     fi
     # Remove JSON
-    rm "$x.json"
-    rm -r $x
+    rm "output/$x.json"
+    rm -r "output/$x"
 
 
 done
