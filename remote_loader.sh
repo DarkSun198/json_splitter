@@ -67,7 +67,7 @@ set_bet_sizes ip,turn,raise,100
 set_allin_threshold 0.8
 build_tree
 set_thread_num 16
-set_accuracy 0.5
+set_accuracy 1.0
 set_max_iteration 201
 set_print_interval 10
 set_use_isomorphism 1
